@@ -5,7 +5,7 @@ function First(){
     return(
         <div>
             <h1>
-                Welcome to parent file
+                Welcome to parent file,upload in git
             </h1>
             <img src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg" alt="" className="img"/>
             <button onClick={()=>page("/hooks")}>
