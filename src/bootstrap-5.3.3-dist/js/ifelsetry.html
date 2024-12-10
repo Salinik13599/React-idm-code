@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let demo = prompt("Enter the email id")
+        console.log(demo);
+        
+        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+        if (emailPattern.test(demo))
+    {
+        console.log("This is valid");
+    }
+    else{
+        console.log("This is invalid");
+        
+    }
+
+
+        // let mail = prompt("Enter the email")
+        // console.log(mail);
+        // let email = ("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/");
+        // if (email == ("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/")){
+        //     console.log("vaild");}
+        //     else{
+        //         console.log("invalid");
+                
+        //     }
+ 
+
+// let email = prompt("Enter the email")
+// let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// if (emailPattern.test(email)) {
+//     console.log("The email ID is valid.");
+// } else {
+//     console.log("The email ID is invalid.");
+// }
+            
+        
+        
+
+    </script>
+</body>
+</html>

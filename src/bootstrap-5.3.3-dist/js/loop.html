@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    
+    <script>
+        for(let i=0;i<=3;i++){
+            console.log(i);
+        }
+
+        for(let i=3;i>=0;i--){
+            console.log("decrement",i);
+        }
+
+        let product = 1; // Initialize the product to 1
+// multiply by 2
+        for (let i = 1; i <= 5; i++) {
+        console.log(2 * i);
+        }
+
+
+        
+let rows = 5;
+for (let i = 1; i <= rows; i++) {
+    let stars = "";
+    for (let j = 1; j <= i; j++)
+     {
+        stars += "*";
+    }
+
+    console.log(stars); 
+}
+
+
+let rows1 = 3;
+for (let i = rows1; i >= 1; i--) {
+    let stars = "";
+    for (let j = 1; j <= i; j++)
+     {
+        stars += "*";
+    }
+
+    console.log(stars); 
+}
+
+
+let n = 5;
+for(let i = 1; i <= n; i++) {
+    let str = "* ";
+    let stars = ' ';
+    
+    console.log(stars.repeat((n - i)) + str.repeat(i * 2 - 1)); 
+
+}
+
+let n1 = 5;
+for(let i = n1; i >= 1; i--) {
+    let str = "* ";
+    let stars = '  ';
+    
+    console.log(stars.repeat((n1 - i)) + str.repeat(i * 2 - 1)); 
+
+}
+
+
+
+
+function printevennumbers() {
+            for(i = 0; 1<=100; i++){
+                if(i%2 === 0)
+                console.log(i);
+                
+            }
+
+            
+        }
+          printevennumbers();
+
+
+        
+    </script>
+</body>
+</html>

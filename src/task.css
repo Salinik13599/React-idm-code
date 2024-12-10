@@ -1,0 +1,10 @@
+*{
+    background-color: aqua;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+img{
+    border: 3px solid green;
+}
